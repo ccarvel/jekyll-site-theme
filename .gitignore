@@ -2,6 +2,7 @@
 _gh_pages
 _site
 .ruby-version
+archive
 
 
 # Numerous always-ignore extensions
@@ -17,6 +18,7 @@ _site
 *.gem
 *~
 *.pptx
+*.pdf
 
 # POSSIBLE ENVIRONMENTS
 
