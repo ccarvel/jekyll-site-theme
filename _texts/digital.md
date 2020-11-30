@@ -19,4 +19,11 @@ SARIT offers a library of electronic editions of texts in Sanskrit and other Ind
 
 [Visit the project](http://sarit.indology.info/sarit-pm/docs/welcome.html) 
 
+---
+
+## The Śṛṅgāratilaka of Rudra Bhaṭṭa: A Critical Edition by Sheldon Pollock (Work in Progress)
+
+Little about the Śṛṅgāratilaka (ŚT) of Rudra Bhaṭṭa is settled knowledge aside from the name of the work itself. We are not certain who Rudra Bhaṭṭa was, when or where he lived, or even whether Rudra Bhaṭṭa was his actual (or sole) name. What we do know is that the work occupies an important place in the history of Indian aesthetics, both for its innovations—including the often charming poetry offered as examples—and for its later influence.
+
+[Download the PDF](https://www.sheldonpollock.org/archive/pollock_srngaratilaka_20108.pdf)
 

@@ -7,6 +7,7 @@ tagline: 'a complete bibliography and repository'
 description: "A complete bibliography and repository of Sheldon I. Pollock's scholarly work."
 url: 'http://elotroalex.github.io'
 baseurl: ''
+incremental: true
 
 # About/contact
 author:
