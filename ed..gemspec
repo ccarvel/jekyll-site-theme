@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "ed."
-  spec.version       = "1.0.2"
+  spec.version       = "2.0.0"
   spec.authors       = ["Alex Gil"]
   spec.email         = ["colibri.alex@gmail.com"]
 
@@ -12,8 +12,8 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|optional|_layouts|_includes|_sass|_texts|index|search|about|credits|documentation|atom|Gemfile|LICENSE|README)}i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.6"
+  spec.add_runtime_dependency "jekyll", "~> 4.4"
 
-  spec.add_development_dependency "bundler", "~> 2.1.4"
-  spec.add_development_dependency "rake", "~> 10.4"
+  spec.add_development_dependency "bundler", ">= 2.1"
+  spec.add_development_dependency "rake", ">= 12.0"
 end

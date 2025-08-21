@@ -1,4 +1,4 @@
-# Built with Jekyll 3.2.0
+# Built with Jekyll 4.4.1
 
 # Setup
 
@@ -7,7 +7,7 @@ tagline: 'a complete bibliography and repository'
 description: "A complete bibliography and repository of Sheldon I. Pollock's scholarly work."
 url: 'http://elotroalex.github.io'
 baseurl: ''
-incremental: true
+# incremental: true # Deprecated in Jekyll 4.x
 
 # About/contact
 author:
@@ -51,8 +51,9 @@ exclude:
 # Theme
 theme: "ed."
 
-# Gems
-plugins: ['jekyll/scholar']
+# Plugins
+plugins:
+  - jekyll/scholar
 
 # Scholar
 scholar:
@@ -75,7 +76,7 @@ scholar:
   replace_strings: true
   join_strings:    true
 
-  use_raw_bibtex_entry: true
+# use_raw_bibtex_entry: true # Deprecated in jekyll-scholar
   allow_locale_overrides: true
 
   details_dir:    bibliography
