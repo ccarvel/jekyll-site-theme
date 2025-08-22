@@ -165,7 +165,6 @@ ul, ol {
   margin-bottom: 1rem;
 }
 
-
 /* Horizontal ruler */
 
 hr {
@@ -850,7 +849,7 @@ li.prose-indent {
   margin-top: .33rem; 
 }
 
-// Tweaks for Sheldon Pollock
+// Tweaks
 
 div.image {
   line-height: 0;
@@ -858,11 +857,35 @@ div.image {
 }
 
 span.caption {
-  float: right;
+  float: left;
   font-size: small;
   color: gray;
 }
 
+/* Horizontal list styles */
+.horizontal-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
 
+.horizontal-list li {
+    margin: 0;
+    padding: 8px 12px;
+    color: #333;
+}
 
-
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    .horizontal-list {
+        gap: 10px;
+    }
+    
+    .horizontal-list li {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+}

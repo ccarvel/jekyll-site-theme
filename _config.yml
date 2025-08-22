@@ -2,18 +2,18 @@
 
 # Setup
 
-title: 'Sheldon I. Pollock'
-tagline: 'a complete bibliography and repository'
-description: "A complete bibliography and repository of Sheldon I. Pollock's scholarly work."
+title: 'Unsettling Seas'
+tagline: "Caribbean Women's and Feminist Creative Writing, 1989-2001"
+description: "Bibligraphic Resources for Caribbean Women's and Feminist Creative Writing, 1989-2001"
 url: 'http://elotroalex.github.io'
 baseurl: ''
-# incremental: true # Deprecated in Jekyll 4.x
+incremental: true
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name:              Warren Harding
+  url:               
+  email:             
 
 # Permalinks
 
@@ -28,9 +28,10 @@ encoding: utf-8
 
 # Collections for texts
 collections:
+  writers:
+    output: true
   texts:
     output: true
-
 # Markdown specs
 markdown: kramdown
 
