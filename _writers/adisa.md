@@ -2,6 +2,7 @@
 layout: page
 title: "Opal Palmer Adisa"
 # writer: adisa
+
 ---
 <hr>
 <div class="image">
